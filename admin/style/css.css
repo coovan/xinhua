@@ -1,0 +1,82 @@
+@charset "gb2312";
+/* CSS Document */
+
+
+*{ margin: 0; padding: 0; }
+
+img { border: 0 none; vertical-align: top; }
+ul, li { list-style-type: none; }
+h1, h2, h3, h4, h5, h6 { font-size: 14px; }
+body, input, select, button, textarea { font-size: 12px; font-family:"宋体", Arial;}
+button { cursor: pointer; }
+a{ text-decoration:none; color:#676767;}
+a:link {
+  /*连接默认的颜色变化*/
+}
+a:visited {
+ /*连接访问的颜色变化*/
+}
+a:hover {
+ color: #f67000; /*鼠标经过的颜色变化*/
+}
+a:active { 
+ /*鼠标按下的颜色变化*/
+}
+
+
+
+/*---------------------------------------------------------------------------*/
+
+#headbg{ background:url(../images/bg.jpg) no-repeat;width:1084px; height:764px; margin:0 auto;}
+#headbg #headtop{width:1084px; height:133px; }
+#headbg #logo{width:1084px; height:41px;}
+#headbg #logo #logobg{ background:url(../images/asdasds2_c2.gif) no-repeat;width:634px; height:41px; float:left;}
+#headbg #logo #logobg1{ width:225px; height:41px; float:left;}
+#headbg #kong{width:1084px; height:43px;}
+#headbg #cont{width:402px; height:292px; margin:0 auto; background:url(../images/ffffr2_c2.gif) repeat-x;}
+#headbg #cont #box1{width:402px; height:80px; }
+#headbg #cont #box1 #box1bg{ background:url(../images/inde.gif) no-repeat; width:132px; height:29px; float:left; margin-left:135px; margin-top:25px;}
+#headbg #cont  #cont_2{width:210px; height:150px; padding-left:96px; font-size:14px; color:#666666; float:left; }
+#headbg #cont  #cont_2 #Form{width:210px; height:150px;}
+#headbg #cont  #cont_2 #Form p{width:210px; height:32px; line-height:32px; margin-bottom:10px;}
+#headbg #cont  #cont_2 #Form p span{ float:left;}
+#headbg #cont  #cont_2 #Form .Fw{width:150px; height:28px; border:1px solid cccccc; float:left; }
+#headbg #cont  #cont_2 #Form p #Fw1{width:72px; height:28px; border:1px solid cccccc; float:left;}
+#headbg #cont  #cont_2 #Form p #Yz{ background:url(../images/dsfdsf_r2_c2.gif);width:75px; height:30px; float:right; margin-top:2px;}
+#headbg #cont  #cont_2 #Form p .Hw{ margin-left:90px;}
+#headbg #cont  #cont_3{width:210px; height:22px;  float:left; margin:20px 0 0 96px;}
+#headbg #cont  #cont_3 p{ text-align:center; line-height:22px; font-size:14px; color:#676767;}
+#Hw_a{width:1084px; height:72px;}
+#Hw_b{width:1084px; height:26px; text-align:center; font-size:12px;  color:#676767;}
+#Hw_c{width:1084px; height:26px; }
+
+#Hw_c p{text-align:center; line-height:26px; font-size:12px;color:#676767;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

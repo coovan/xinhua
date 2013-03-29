@@ -1,0 +1,27 @@
+@charset "gb2312";
+/* CSS Document */
+/*公用样式*/
+*{ margin:0; padding:0;}
+ul,ol,li{ list-style-type:none;}
+body{ font-family:"宋体"; font-size:12px; color:#333; line-height:24px;}
+a{ color:#333; text-decoration:none;}
+.martop10{ margin-top:10px;}
+
+
+/*左侧*/
+#menu h6.selected{ background-image: url(../images/admin_r12_c4.gif); background-repeat:no-repeat; width:210px; margin:0 auto; height:30px; font-weight:bold; text-indent:15px; line-height:30px; color:#FFF; font-size:12px; margin-top:6px;}
+#menu h6 a{ display:block;}
+#menu h6.selected span{ color:#FFF; font-weight:bold;}
+#menu h6{background-image:url(../images/admin_r21_c4.gif); background-repeat:no-repeat; width:210px; margin:0 auto; height:30px; font-weight:bold; text-indent:15px; line-height:30px;  font-size:12px; margin-top:6px;}
+#menu h6 span{ color:#333; font-weight:bold;}
+.pintop10{ padding-top:4px;}
+#menu ul{ width:210px; margin:0 auto;}
+#menu ul li{ background-image:url(../images/admin_r14_c4.gif); background-repeat:no-repeat; height:31px; color:#FFF; text-indent:22px; line-height:31px; font-size:12px; width:210px;}
+#menu ul li a,#menu ul li visited{ color:#FFF;}
+
+.opened {
+	display: block;
+}
+.closed {
+	display: none;
+}

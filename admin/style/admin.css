@@ -1,0 +1,26 @@
+@charset "gb2312";
+/* CSS Document */
+/*公用样式*/
+*{ margin:0; padding:0;}
+img{ border:none; vertical-align:top;}
+ul,ol,li{ list-style-type:none;}
+.left{ float:left;}
+.right{ float:right;}
+.clear{ clear: both; font-size:0; line-height:0; height:0;}
+body{ font-family:"宋体"; font-size:12px; color:#333; line-height:24px;background-image: url(../images/admin_r1_c5.png);}
+a{ color:#333; text-decoration:none;}
+a:visited{ color:#333; }
+a:hover{ color:#F00; }
+.martop10{ margin-top:10px;}
+/*头部*/
+.marl20{ margin-left:20px;}
+.pinrl10{ padding:0 10px;}
+.navbg{ background-image:url(../images/admin_r4_c10.jpg); background-repeat:repeat-x; color:#FFF;}
+.navbg span{background-image: url(../images/admin_r5_c7.gif); background-repeat:no-repeat;  width:100px; height:30px; margin-top:10px; line-height:30px;  display:block; float:right; margin-right:6px;}
+.navbg span img{ margin-left:9px; margin-right:14px; margin-top:7px; *margin-top:0; _margin-top:7px;}
+.navbg a{ color:#FFF; font-weight:bold; line-height:30px; }
+.navbg a:visited{ color:#FFF;}
+
+
+/*foot*/
+.foot{ margin-top:10px; color:#FFF; background-color:#333; height:60px; line-height:60px; text-align:right;}
